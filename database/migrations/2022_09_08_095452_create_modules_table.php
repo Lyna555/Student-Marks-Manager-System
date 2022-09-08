@@ -18,6 +18,8 @@ class CreateModulesTable extends Migration
             $table->string('nom');
             $table->string('niveau');
             $table->string('specialite');
+            $table->integer('semestre');
+            $table->string('unite');
             $table->string('resume')->nullable();
             $table->string('enseignants');
             $table->timestamps();
